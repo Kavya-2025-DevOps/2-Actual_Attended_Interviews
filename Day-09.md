@@ -10,15 +10,15 @@
     Jenkins pipeline perform post-deployment validation using rollout status and health checks, and if validation fails, the pipeline automatically triggers a rollback.
     For critical services, blue-green or canary deployments near-instance rollback by shifting traffic back to the previous version.
     
-    # K8s
+    **K8s**
     => kubectl rollout undo deployment/my-app
     => kubectl rollout undo deployment/my-app --to-revision=3 (Specific version)
     
-    # Helm
+    **Helm**
     => helm history my-app
     => helm rollback my-app 2
     
-    # Jenkins pipeline
+    **Jenkins pipeline**
     => kubectl rollout status deployment/my-app - Write in Try
     => kubectl rollout undo deployment/my-app - write in catch
 
