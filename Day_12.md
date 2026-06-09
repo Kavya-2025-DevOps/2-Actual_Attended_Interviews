@@ -1,5 +1,5 @@
 
-************** Tavan Technologies ********************
+************** (8 Jun 2026) ********************
 
 **1**. Self Intro, Roles and Resposibilities, Day-to-Day activities  
 2. Python experience - I have Training Only.  
