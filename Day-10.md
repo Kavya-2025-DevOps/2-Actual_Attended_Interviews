@@ -1,5 +1,6 @@
-******************** Date: 05 Jun ***************************
-Role: Aws Admin 
+******************** Date: 05 Jun ***************************  
+
+Role: Aws Admin - AI Interview
 
 Governance & Multi-Account Management (Control Tower & Config)
 
@@ -27,3 +28,8 @@ Scenario 2: Your Terraform pipeline in GitHub Actions needs access to AWS to dep
 Containerization (EKS)
 
 Scenario 1: You are asked to assist the dev team with an EKS cluster. A pod is stuck in ImagePullBackOff. How would you troubleshoot the worker node's IAM role or the ECR repository policy to resolve this?
+
+
+##
+
+Done
